@@ -1,0 +1,31 @@
+{
+  "name": "common-hooks",
+  "author": "Abunuo",
+  "private": true,
+  "license": "Apache-2.0",
+  "keywords": [
+    "react",
+    "request-cache",
+    "brige"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "prettier": "^3.2.5",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abunuo/common-hooks.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
